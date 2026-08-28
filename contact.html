@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact - Delwood</title>
+<meta name="description" content="Vous avez un lieu, un projet ou une idée ? Contactez Delwood pour une œuvre, une fresque ou un projet d'intégration artistique.">
+<meta property="og:title" content="Contact - Delwood">
+<meta property="og:description" content="Vous avez un lieu, un projet ou une idée ? Parlons-en.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://images.squarespace-cdn.com/content/v1/60479e3813fcb01afb298ea8/4fecc7d2-7334-4271-aa19-f63eeeebc887/portrait-q4m088uagms13jvr9p8qumlsbf5xklfdv6axkvy41s.jpg">
+<meta property="og:locale" content="fr_FR">
+<link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Work+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+<a class="skip-link" href="#contenu">Aller au contenu</a>
+
+<header class="site-header">
+  <a class="logo" href="index.html">DEL<span>WOOD</span></a>
+  <nav class="nav-primary" aria-label="Navigation principale">
+    <a href="oeuvres.html">Œuvres</a>
+    <a href="fresques.html">Fresques &amp; art mural</a>
+    <a href="art-architecture.html">Art &amp; architecture</a>
+    <a href="a-propos.html">À propos</a>
+    <a class="nav-contact" href="contact.html" aria-current="page">Contact</a>
+  </nav>
+  <button class="nav-toggle" data-nav-toggle aria-label="Ouvrir le menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<nav class="nav-mobile" aria-label="Navigation mobile">
+  <ul>
+    <li><a href="oeuvres.html">Œuvres</a></li>
+    <li><a href="fresques.html">Fresques &amp; art mural</a></li>
+    <li><a href="art-architecture.html">Art &amp; architecture</a></li>
+    <li><a href="a-propos.html">À propos</a></li>
+    <li><a class="nav-mobile-contact" href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<main id="contenu">
+
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow page-hero__kicker">Contact</span>
+    <h1 class="h1">Vous avez un lieu, un projet<br>ou une idée ? <span class="italic">Parlons-en.</span></h1>
+    <p class="lead" style="margin-top:1.5rem">
+      Œuvre à acquérir, commande sur mesure, fresque ou projet d'intégration artistique :
+      décrivez votre idée, Delwood revient vers vous rapidement.
+    </p>
+  </div>
+</section>
+
+<section class="section--tight">
+  <div class="container">
+    <div class="grid">
+      <div class="col-7 reveal">
+
+        <!-- Formulaire statique, sans backend : soumission via mailto: côté client. -->
+        <!-- brancher Formspree ou équivalent en production si un envoi direct est souhaité -->
+        <form data-contact-form novalidate>
+          <div class="form-grid form-grid--2">
+            <div class="field">
+              <label for="nom">Nom</label>
+              <input type="text" id="nom" name="nom" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="organisation">Organisation</label>
+              <input type="text" id="organisation" name="organisation" autocomplete="organization">
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" autocomplete="email" required>
+            </div>
+            <div class="field">
+              <label for="type_projet">Type de projet</label>
+              <select id="type_projet" name="type_projet">
+                <option value="Œuvre / acquisition">Œuvre / acquisition</option>
+                <option value="Commande sur mesure">Commande sur mesure</option>
+                <option value="Fresque murale">Fresque murale</option>
+                <option value="Projet art & architecture">Projet art &amp; architecture</option>
+                <option value="Autre">Autre</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="lieu">Lieu</label>
+              <input type="text" id="lieu" name="lieu" placeholder="Ville, région">
+            </div>
+            <div class="field">
+              <label for="budget">Budget indicatif</label>
+              <input type="text" id="budget" name="budget" placeholder="Ex. 5 000 - 15 000 €">
+            </div>
+          </div>
+          <div class="field" style="margin-top:1.75rem">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required placeholder="Décrivez votre lieu, votre projet ou votre idée."></textarea>
+          </div>
+          <p class="field-hint" style="margin-top:1rem">
+            En envoyant ce message, votre messagerie s'ouvre avec les informations pré-remplies.
+          </p>
+          <button class="btn btn--primary" type="submit" style="margin-top:1.75rem">Envoyer le message</button>
+        </form>
+
+      </div>
+      <div class="col-4 col-start-9 reveal">
+        <dl class="credits" style="display:flex; flex-direction:column; gap:1.6rem">
+          <div>
+            <dt style="color:var(--ink-soft)">Email</dt>
+            <dd><a class="link-arrow" href="mailto:contact@delwood.fr" style="margin-top:0.4rem">contact@delwood.fr</a></dd>
+          </div>
+          <div>
+            <dt style="color:var(--ink-soft)">Instagram</dt>
+            <dd><a class="link-arrow" href="https://www.instagram.com/delwood_art_work_/" target="_blank" rel="noopener" style="margin-top:0.4rem">@delwood_art_work_</a></dd>
+          </div>
+          <div>
+            <dt style="color:var(--ink-soft)">Zone d'intervention</dt>
+            <dd>Pays Basque et alentours, déplacements possibles selon le projet</dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="index.html">DEL<span>WOOD</span></a>
+        <p>Peinture, fresques monumentales, art mural et créations sur mesure. Entre le mur, la toile et le paysage.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Explorer</h4>
+        <ul>
+          <li><a href="oeuvres.html">Œuvres</a></li>
+          <li><a href="fresques.html">Fresques &amp; art mural</a></li>
+          <li><a href="art-architecture.html">Art &amp; architecture</a></li>
+          <li><a href="a-propos.html">À propos</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:contact@delwood.fr">contact@delwood.fr</a></li>
+          <li><a href="https://www.instagram.com/delwood_art_work_/" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="contact.html">Un projet ? Parlons-en</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> Delwood - Aurélien Desbois</span>
+      <span>Pays Basque, France</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
