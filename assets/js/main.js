@@ -48,36 +48,6 @@
     });
   }
 
-  /* Tracé du signe (SVG masque) ---------------------------------------------- */
-  var signePaths = document.querySelectorAll(".signe path");
-
-  signePaths.forEach(function (path) {
-    var length = path.getTotalLength();
-    path.style.strokeDasharray = length;
-    path.style.strokeDashoffset = reduceMotion ? 0 : length;
-  });
-
-  if (!reduceMotion && "IntersectionObserver" in window && signePaths.length) {
-    var signeObserver = new IntersectionObserver(
-      function (entries) {
-        entries.forEach(function (entry) {
-          if (entry.isIntersecting) {
-            entry.target.querySelectorAll("path").forEach(function (path, i) {
-              path.style.transitionDelay = i * 120 + "ms";
-              path.style.strokeDashoffset = 0;
-            });
-            signeObserver.unobserve(entry.target);
-          }
-        });
-      },
-      { threshold: 0.4 }
-    );
-
-    document.querySelectorAll(".signe").forEach(function (svg) {
-      signeObserver.observe(svg);
-    });
-  }
-
   /* Façade vidéo Vimeo (lazy embed) -------------------------------------------- */
   document.querySelectorAll("[data-video-embed]").forEach(function (facade) {
     facade.addEventListener("click", function () {
