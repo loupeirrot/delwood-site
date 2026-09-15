@@ -69,6 +69,27 @@
     });
   });
 
+  /* Façade vidéo YouTube (lazy embed) ------------------------------------------ */
+  document.querySelectorAll("[data-youtube-embed]").forEach(function (facade) {
+    facade.addEventListener("click", function () {
+      var youtubeId = facade.getAttribute("data-youtube-embed");
+      var iframe = document.createElement("iframe");
+      iframe.src = "https://www.youtube-nocookie.com/embed/" + youtubeId + "?autoplay=1&rel=0";
+      iframe.setAttribute("allow", "autoplay; encrypted-media; picture-in-picture");
+      iframe.setAttribute("allowfullscreen", "");
+      iframe.setAttribute("title", facade.getAttribute("data-video-title") || "Vidéo Delwood");
+      facade.innerHTML = "";
+      facade.appendChild(iframe);
+    });
+
+    facade.addEventListener("keydown", function (event) {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        facade.click();
+      }
+    });
+  });
+
   /* Filtres œuvres --------------------------------------------------------------- */
   var filterButtons = document.querySelectorAll("[data-filter]");
   var filterItems = document.querySelectorAll("[data-category]");

@@ -74,20 +74,20 @@
   <div class="container">
     <div class="grid">
       <div class="col-7 reveal">
-        <!-- REMPLACER : quand le documentaire est en ligne sur YouTube, transformer ce bloc en façade
-             cliquable identique à celle de la section vidéo plus bas (video-embed + data-youtube-embed="ID"),
-             et adapter main.js (même logique que data-video-embed, avec l'URL youtube-nocookie.com/embed/). -->
-        <div class="media" style="--ratio: 16/9">
-          <img src="assets/img/herovert-poster.jpg" alt="Delwood au travail sur une planche, extrait du documentaire à venir" loading="lazy">
+        <div class="video-embed" data-youtube-embed="2J7MZ--tcww" data-video-title="Optima by Delwood - Quand un hélicoptère devient une œuvre d'art" role="button" tabindex="0" aria-label="Lire la vidéo Optima by Delwood">
+          <img src="https://img.youtube.com/vi/2J7MZ--tcww/maxresdefault.jpg" alt="" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover">
+          <div class="video-embed__play">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="12" r="11.3" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M10 8.5l6 3.5-6 3.5z"/></svg>
+          </div>
+          <span class="video-embed__label">Optima by Delwood · film</span>
         </div>
-        <p class="caption" style="margin-top:0.8rem">Documentaire · bientôt disponible</p>
       </div>
       <div class="col-4 col-start-9 reveal">
         <span class="eyebrow">Documentaire</span>
-        <h2 id="documentaire-titre" class="h3" style="margin-top:1rem">Un film sur son travail.</h2>
+        <h2 id="documentaire-titre" class="h3" style="margin-top:1rem">Optima Aero. Quand un hélicoptère devient une œuvre.</h2>
         <p class="body-text" style="margin-top:1.2rem">
-          Un documentaire suit Delwood dans son atelier et sur ses chantiers, de la première
-          esquisse à la fresque achevée. Sa sortie sera annoncée directement ici.
+          Un film documente l'intervention de Delwood sur des éléments de fuselage d'EC135
+          pour Optima Aero : de l'esquisse à la pièce peinte, en environnement industriel.
         </p>
       </div>
     </div>
@@ -131,9 +131,8 @@
   <div class="container">
     <div class="grid">
       <div class="col-7 reveal">
-        <!-- REMPLACER : photo HD fournie par le vidéaste/photographe - Confluence, Labenne -->
-        <div class="media media-placeholder" style="--ratio: 5/6">
-          <span class="media-placeholder__label">Confluence - Labenne, 2024</span>
+        <div class="media" style="--ratio: 5/6">
+          <img src="assets/img/fresque-bayonne.jpg" alt="Fresque murale de Delwood, Bayonne" loading="lazy">
         </div>
       </div>
       <div class="col-4 col-start-9 reveal">
