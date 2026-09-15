@@ -286,6 +286,36 @@ h4,
   color: var(--accent-soft);
 }
 
+.section--ink .field label {
+  color: rgba(241, 239, 232, 0.6);
+}
+
+.section--ink .field input,
+.section--ink .field select,
+.section--ink .field textarea {
+  color: var(--paper);
+  border-bottom-color: rgba(241, 239, 232, 0.3);
+}
+
+.section--ink .field input::placeholder,
+.section--ink .field textarea::placeholder {
+  color: rgba(241, 239, 232, 0.4);
+}
+
+.section--ink .field input:focus,
+.section--ink .field select:focus,
+.section--ink .field textarea:focus {
+  border-color: var(--accent-soft);
+}
+
+.section--ink .field select option {
+  color: var(--ink);
+}
+
+.section--ink .field-hint {
+  color: rgba(241, 239, 232, 0.45);
+}
+
 .section-head {
   margin-bottom: clamp(2.5rem, 5vw, 4.5rem);
 }
@@ -416,6 +446,10 @@ h4,
 }
 
 /* --- En-tête / navigation ------------------------------------------------------ */
+main section[id] {
+  scroll-margin-top: 88px;
+}
+
 .site-header {
   position: sticky;
   top: 0;

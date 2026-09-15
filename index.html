@@ -22,11 +22,11 @@
 <header class="site-header">
   <a class="logo" href="index.html">DEL<span>WOOD</span></a>
   <nav class="nav-primary" aria-label="Navigation principale">
-    <a href="oeuvres.html">Œuvres</a>
-    <a href="fresques.html">Fresques &amp; art mural</a>
-    <a href="art-architecture.html">Art &amp; architecture</a>
-    <a href="a-propos.html">À propos</a>
-    <a class="nav-contact" href="contact.html">Contact</a>
+    <a href="#oeuvres">Œuvres</a>
+    <a href="#fresques">Fresques &amp; art mural</a>
+    <a href="#architecture">Art &amp; architecture</a>
+    <a href="#apropos">À propos</a>
+    <a class="nav-contact" href="#contact">Contact</a>
   </nav>
   <button class="nav-toggle" data-nav-toggle aria-label="Ouvrir le menu" aria-expanded="false">
     <span></span><span></span><span></span>
@@ -35,11 +35,11 @@
 
 <nav class="nav-mobile" aria-label="Navigation mobile">
   <ul>
-    <li><a href="oeuvres.html">Œuvres</a></li>
-    <li><a href="fresques.html">Fresques &amp; art mural</a></li>
-    <li><a href="art-architecture.html">Art &amp; architecture</a></li>
-    <li><a href="a-propos.html">À propos</a></li>
-    <li><a class="nav-mobile-contact" href="contact.html">Contact</a></li>
+    <li><a href="#oeuvres">Œuvres</a></li>
+    <li><a href="#fresques">Fresques &amp; art mural</a></li>
+    <li><a href="#architecture">Art &amp; architecture</a></li>
+    <li><a href="#apropos">À propos</a></li>
+    <li><a class="nav-mobile-contact" href="#contact">Contact</a></li>
   </ul>
 </nav>
 
@@ -64,13 +64,38 @@
     <p class="hero-sub">Peinture · Fresques · Art mural · Créations sur mesure</p>
     <div class="hero-foot">
       <p class="hero-tagline"><span class="italic">De la toile au mur.</span><br>Du mur à l'espace.</p>
-      <a class="btn btn--accent" href="fresques.html">Voir les fresques</a>
+      <a class="btn btn--accent" href="#contact">Parlons-en</a>
+    </div>
+  </div>
+</section>
+
+<!-- DOCUMENTAIRE -->
+<section class="section" id="documentaire" aria-labelledby="documentaire-titre">
+  <div class="container">
+    <div class="grid">
+      <div class="col-7 reveal">
+        <!-- REMPLACER : quand le documentaire est en ligne sur YouTube, transformer ce bloc en façade
+             cliquable identique à celle de la section vidéo plus bas (video-embed + data-youtube-embed="ID"),
+             et adapter main.js (même logique que data-video-embed, avec l'URL youtube-nocookie.com/embed/). -->
+        <div class="media" style="--ratio: 16/9">
+          <img src="assets/img/herovert-poster.jpg" alt="Delwood au travail sur une planche, extrait du documentaire à venir" loading="lazy">
+        </div>
+        <p class="caption" style="margin-top:0.8rem">Documentaire · bientôt disponible</p>
+      </div>
+      <div class="col-4 col-start-9 reveal">
+        <span class="eyebrow">Documentaire</span>
+        <h2 id="documentaire-titre" class="h3" style="margin-top:1rem">Un film sur son travail.</h2>
+        <p class="body-text" style="margin-top:1.2rem">
+          Un documentaire suit Delwood dans son atelier et sur ses chantiers, de la première
+          esquisse à la fresque achevée. Sa sortie sera annoncée directement ici.
+        </p>
+      </div>
     </div>
   </div>
 </section>
 
 <!-- SELECTION DE PROJETS -->
-<section class="section" aria-labelledby="selection-titre">
+<section class="section section--tight section--shade" aria-labelledby="selection-titre">
   <div class="container">
     <div class="section-head reveal">
       <span class="eyebrow">Sélection</span>
@@ -87,7 +112,7 @@
         <span class="index-row__title">Bidean</span>
         <span class="index-row__meta">Bayonne, 2025 · Fresque avec Elzarra</span>
       </a>
-      <a class="index-row" href="oeuvres.html">
+      <a class="index-row" href="#oeuvres">
         <span class="index-row__num">03</span>
         <span class="index-row__title">Les chemins de l'esprit</span>
         <span class="index-row__meta">Galerie Jung · Peinture, 120 x 120 cm</span>
@@ -102,7 +127,7 @@
 </section>
 
 <!-- FRESQUES MONUMENTALES -->
-<section class="section section--shade" aria-labelledby="fresques-titre">
+<section class="section" id="fresques" aria-labelledby="fresques-titre">
   <div class="container">
     <div class="grid">
       <div class="col-7 reveal">
@@ -120,7 +145,7 @@
           et l'histoire du site.
         </p>
         <a class="link-arrow" href="fresques.html" style="margin-top:2rem">
-          Explorer les fresques
+          Explorer toutes les fresques
           <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg>
         </a>
       </div>
@@ -129,7 +154,7 @@
 </section>
 
 <!-- OEUVRES -->
-<section class="section" aria-labelledby="oeuvres-titre">
+<section class="section section--shade" id="oeuvres" aria-labelledby="oeuvres-titre">
   <div class="container">
     <div class="grid">
       <div class="col-4 reveal">
@@ -140,7 +165,7 @@
           appris à Delwood. Montagnes en hachures, volutes cinétiques, visages devenus signes.
         </p>
         <a class="link-arrow" href="oeuvres.html" style="margin-top:2rem">
-          Voir les œuvres
+          Voir toutes les œuvres
           <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg>
         </a>
       </div>
@@ -159,7 +184,7 @@
 </div>
 
 <!-- ART & ARCHITECTURE -->
-<section class="section section--ink" aria-labelledby="architecture-titre">
+<section class="section section--ink" id="architecture" aria-labelledby="architecture-titre">
   <div class="container">
     <div class="grid">
       <div class="col-6 reveal">
@@ -218,7 +243,7 @@
   </div>
 </section>
 
-<!-- VIDEO -->
+<!-- VIDEO ARCHIVE -->
 <section class="section section--shade" aria-labelledby="video-titre">
   <div class="container">
     <div class="grid">
@@ -243,7 +268,7 @@
 </section>
 
 <!-- A PROPOS -->
-<section class="section" aria-labelledby="apropos-titre">
+<section class="section" id="apropos" aria-labelledby="apropos-titre">
   <div class="container">
     <div class="grid">
       <div class="col-5 reveal">
@@ -264,7 +289,7 @@
           sont les signes récurrents.
         </p>
         <a class="link-arrow" href="a-propos.html" style="margin-top:2rem">
-          Découvrir la démarche
+          Découvrir toute la démarche
           <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg>
         </a>
       </div>
@@ -273,15 +298,82 @@
 </section>
 
 <!-- CONTACT -->
-<section class="section section--ink" aria-labelledby="contact-titre">
-  <div class="container text-center">
-    <span class="eyebrow reveal">Contact</span>
-    <h2 id="contact-titre" class="display reveal" style="margin-top:1.2rem; font-size:var(--step-h1)">
-      Vous avez un lieu, un projet<br>ou une idée ?<br><span class="italic" style="color:var(--accent-soft)">Parlons-en.</span>
-    </h2>
-    <a class="btn btn--accent reveal" href="contact.html" style="margin-top:2.5rem">
-      Écrire un message
-    </a>
+<section class="section section--ink" id="contact" aria-labelledby="contact-titre">
+  <div class="container">
+    <div class="section-head reveal text-center">
+      <span class="eyebrow">Contact</span>
+      <h2 id="contact-titre" class="display" style="margin-top:1.2rem; font-size:var(--step-h1)">
+        Vous avez un lieu, un projet<br>ou une idée ?<br><span class="italic" style="color:var(--accent-soft)">Parlons-en.</span>
+      </h2>
+    </div>
+
+    <div class="grid" style="margin-top:clamp(2.5rem,5vw,4rem)">
+      <div class="col-7 reveal">
+
+        <!-- Formulaire statique, sans backend : soumission via mailto: côté client. -->
+        <!-- TEMPORAIRE : adresse email à remplacer par la vraie adresse de l'artiste -->
+        <!-- brancher Formspree ou équivalent en production si un envoi direct est souhaité -->
+        <form data-contact-form novalidate>
+          <div class="form-grid form-grid--2">
+            <div class="field">
+              <label for="nom">Nom</label>
+              <input type="text" id="nom" name="nom" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="organisation">Organisation</label>
+              <input type="text" id="organisation" name="organisation" autocomplete="organization">
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" autocomplete="email" required>
+            </div>
+            <div class="field">
+              <label for="type_projet">Type de projet</label>
+              <select id="type_projet" name="type_projet">
+                <option value="Œuvre / acquisition">Œuvre / acquisition</option>
+                <option value="Commande sur mesure">Commande sur mesure</option>
+                <option value="Fresque murale">Fresque murale</option>
+                <option value="Projet art & architecture">Projet art &amp; architecture</option>
+                <option value="Autre">Autre</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="lieu">Lieu</label>
+              <input type="text" id="lieu" name="lieu" placeholder="Ville, région">
+            </div>
+            <div class="field">
+              <label for="budget">Budget indicatif</label>
+              <input type="text" id="budget" name="budget" placeholder="Ex. 5 000 - 15 000 €">
+            </div>
+          </div>
+          <div class="field" style="margin-top:1.75rem">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required placeholder="Décrivez votre lieu, votre projet ou votre idée."></textarea>
+          </div>
+          <p class="field-hint" style="margin-top:1rem">
+            En envoyant ce message, votre messagerie s'ouvre avec les informations pré-remplies.
+          </p>
+          <button class="btn btn--accent" type="submit" style="margin-top:1.75rem">Envoyer le message</button>
+        </form>
+
+      </div>
+      <div class="col-4 col-start-9 reveal">
+        <dl class="credits" style="display:flex; flex-direction:column; gap:1.6rem">
+          <div>
+            <dt style="color:rgba(241,239,232,0.5)">Email</dt>
+            <dd><a class="link-arrow" href="mailto:contact@delwood.fr" style="margin-top:0.4rem">contact@delwood.fr</a></dd>
+          </div>
+          <div>
+            <dt style="color:rgba(241,239,232,0.5)">Instagram</dt>
+            <dd><a class="link-arrow" href="https://www.instagram.com/delwood_art_work_/" target="_blank" rel="noopener" style="margin-top:0.4rem">@delwood_art_work_</a></dd>
+          </div>
+          <div>
+            <dt style="color:rgba(241,239,232,0.5)">Zone d'intervention</dt>
+            <dd>Pays Basque et alentours, déplacements possibles selon le projet</dd>
+          </div>
+        </dl>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -297,10 +389,10 @@
       <div class="footer-col">
         <h4>Explorer</h4>
         <ul>
-          <li><a href="oeuvres.html">Œuvres</a></li>
-          <li><a href="fresques.html">Fresques &amp; art mural</a></li>
-          <li><a href="art-architecture.html">Art &amp; architecture</a></li>
-          <li><a href="a-propos.html">À propos</a></li>
+          <li><a href="#oeuvres">Œuvres</a></li>
+          <li><a href="#fresques">Fresques &amp; art mural</a></li>
+          <li><a href="#architecture">Art &amp; architecture</a></li>
+          <li><a href="#apropos">À propos</a></li>
         </ul>
       </div>
       <div class="footer-col">
@@ -308,7 +400,7 @@
         <ul>
           <li><a href="mailto:contact@delwood.fr">contact@delwood.fr</a></li>
           <li><a href="https://www.instagram.com/delwood_art_work_/" target="_blank" rel="noopener">Instagram</a></li>
-          <li><a href="contact.html">Un projet ? Parlons-en</a></li>
+          <li><a href="#contact">Un projet ? Parlons-en</a></li>
         </ul>
       </div>
     </div>
