@@ -1161,8 +1161,19 @@ main section[id] {
 .marquee__track {
   display: flex;
   width: max-content;
-  gap: 3.5rem;
   animation: marquee-scroll 34s linear infinite;
+}
+
+/* Chaque set fait au moins un plein écran de large : la boucle reste continue
+   quelle que soit la largeur de l'écran (y compris les grands moniteurs), la
+   liste de noms ne "manque" jamais avant que le set suivant ne prenne le relais. */
+.marquee__set {
+  display: flex;
+  align-items: center;
+  flex: none;
+  min-width: 100vw;
+  gap: 3.5rem;
+  padding-right: 3.5rem;
 }
 
 .marquee__track span {
@@ -1182,8 +1193,12 @@ main section[id] {
 @media (prefers-reduced-motion: reduce) {
   .marquee__track {
     animation: none;
-    flex-wrap: wrap;
     width: 100%;
+  }
+
+  .marquee__set {
+    min-width: 0;
+    flex-wrap: wrap;
   }
 }
 
