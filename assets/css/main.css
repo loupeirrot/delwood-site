@@ -658,6 +658,15 @@ main section[id] {
   color: rgba(241, 239, 232, 0.45);
 }
 
+.footer-bottom a {
+  color: inherit;
+  transition: color var(--dur-fast) var(--ease);
+}
+
+.footer-bottom a:hover {
+  color: var(--accent-soft);
+}
+
 /* --- Hero vidéo ------------------------------------------------------------------ */
 .hero {
   position: relative;
