@@ -134,7 +134,8 @@
       var subject = encodeURIComponent("Nouveau projet - " + (data.get("type_projet") || "Delwood"));
       var body = encodeURIComponent(lines.join("\n"));
 
-      window.location.href = "mailto:contact@delwood.fr?subject=" + subject + "&body=" + body;
+      // À VALIDER : adresse issue de l'ancien site (2024), à confirmer avec l'artiste
+      window.location.href = "mailto:art.delwood@gmail.com?subject=" + subject + "&body=" + body;
     });
   }
 

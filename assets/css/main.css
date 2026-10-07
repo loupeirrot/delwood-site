@@ -120,7 +120,7 @@ p {
 .skip-link {
   position: absolute;
   left: 1rem;
-  top: -3rem;
+  top: -5rem;
   background: var(--ink);
   color: var(--paper);
   padding: 0.75rem 1.25rem;
@@ -342,6 +342,7 @@ h4,
   .col-6 { grid-column-end: span 6; }
   .col-5 { grid-column-end: span 5; }
   .col-4 { grid-column-end: span 4; }
+  .col-3 { grid-column-end: span 3; }
   .col-start-4 { grid-column-start: 4; }
   .col-start-5 { grid-column-start: 5; }
   .col-start-6 { grid-column-start: 6; }
@@ -931,6 +932,43 @@ main section[id] {
   color: var(--ink-soft);
   text-align: right;
   white-space: nowrap;
+}
+
+.index-row--static:hover {
+  color: inherit;
+  padding-left: 0;
+}
+
+/* --- Liste CV (parcours : expositions, performances) ----------------------------------- */
+.cv-list li {
+  display: grid;
+  grid-template-columns: 4.5rem 1fr;
+  gap: 1rem;
+  padding-block: 0.85rem;
+  border-top: 1px solid var(--line);
+  color: var(--ink-soft);
+}
+
+.cv-list li:last-child {
+  border-bottom: 1px solid var(--line);
+}
+
+.cv-year {
+  font-family: var(--font-mono);
+  font-size: var(--step-caption);
+  letter-spacing: 0.04em;
+  color: var(--ink);
+  padding-top: 0.25em;
+}
+
+/* --- Emplacement pour logo de partenaire (contain, jamais rogné) --------------------------- */
+.media--logo {
+  background: var(--paper-shade);
+}
+
+.media--logo img {
+  object-fit: contain;
+  mix-blend-mode: multiply;
 }
 
 /* --- Vidéo embed façade (Vimeo) ------------------------------------------------------ */
