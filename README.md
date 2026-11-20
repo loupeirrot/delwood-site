@@ -1,3 +1,5 @@
+> **Branche `landing`** : version réduite pour la mise en ligne temporaire (aucun accès aux autres pages du site). Contenu : `index.html` (copie d'`entreprises.html`), `entreprises.html`, `chemin-de-vie.html`, `mentions-legales.html`, `404.html`, `pour/` et les images qu'elles utilisent. Le site complet est sur les branches `main` et `optimisation`. Ne fusionne jamais `landing` dans `main`.
+
 # Site de Delwood
 
 Site statique (HTML, CSS, un fichier JavaScript). Aucun outil de compilation : les fichiers de ce dossier sont ceux qui se publient.

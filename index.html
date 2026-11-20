@@ -4,26 +4,25 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script>document.documentElement.classList.add("js");</script>
-<title>Delwood - Artiste plasticien | Peinture, fresques, art mural</title>
-<meta name="description" content="Delwood (Aurélien Desbois), artiste plasticien du Pays Basque. Peinture, fresques monumentales, art mural et créations sur mesure. De la toile au mur, du mur à l'espace.">
+<title>Art en entreprise | Delwood, artiste au Pays Basque</title>
+<meta name="description" content="Œuvres sur mesure pour entreprises, aéroports et CSE. Delwood a peint des éléments de fuselage d'EC135 pour Optima Aero. Parlons de votre projet.">
 <meta name="robots" content="index, follow">
 <meta name="author" content="Aurélien Desbois (Delwood)">
-<link rel="canonical" href="https://delwood.fr/">
-
-<meta property="og:title" content="Delwood - Artiste plasticien">
-<meta property="og:description" content="Peinture, fresques monumentales, art mural et créations sur mesure. De la toile au mur, du mur à l'espace.">
+<link rel="canonical" href="https://delwood.fr/entreprises.html">
+<meta property="og:title" content="Art en entreprise | Delwood, artiste au Pays Basque">
+<meta property="og:description" content="Œuvres sur mesure pour entreprises, aéroports et CSE. Delwood a peint des éléments de fuselage d'EC135 pour Optima Aero. Parlons de votre projet.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://delwood.fr/">
+<meta property="og:url" content="https://delwood.fr/entreprises.html">
 <meta property="og:site_name" content="Delwood">
-<meta property="og:image" content="https://delwood.fr/assets/img/portrait.jpg">
-<meta property="og:image:alt" content="Portrait de Delwood, artiste plasticien du Pays Basque">
+<meta property="og:image" content="https://delwood.fr/assets/img/og-entreprises.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Éléments de fuselage d'EC135 peints par Delwood pour Optima Aero">
 <meta property="og:locale" content="fr_FR">
-
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Delwood - Artiste plasticien">
-<meta name="twitter:description" content="Peinture, fresques monumentales, art mural et créations sur mesure. De la toile au mur, du mur à l'espace.">
-<meta name="twitter:image" content="https://delwood.fr/assets/img/portrait.jpg">
-
+<meta name="twitter:title" content="Art en entreprise | Delwood, artiste au Pays Basque">
+<meta name="twitter:description" content="Œuvres sur mesure pour entreprises, aéroports et CSE. Delwood a peint des éléments de fuselage d'EC135 pour Optima Aero. Parlons de votre projet.">
+<meta name="twitter:image" content="https://delwood.fr/assets/img/og-entreprises.jpg">
 <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
 <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
 <meta name="theme-color" content="#f1efe8">
@@ -38,18 +37,16 @@
   "url": "https://delwood.fr/",
   "image": "https://delwood.fr/assets/img/portrait.jpg",
   "jobTitle": "Artiste plasticien",
-  "description": "Artiste plasticien du Pays Basque : peinture, fresques monumentales, art mural et créations sur mesure.",
   "address": {
     "@type": "PostalAddress",
-    "addressRegion": "Pays Basque",
+    "addressLocality": "Biarritz",
+    "postalCode": "64200",
     "addressCountry": "FR"
   },
   "sameAs": [
     "https://www.instagram.com/delwood_art_work_/",
-    "https://www.facebook.com/aurelien.delwood",
-    "https://fr.linkedin.com/in/aur%C3%A9lien-delwood-delwood-b251aa86"
-  ],
-  "knowsAbout": ["Peinture", "Fresque murale", "Art mural", "Street art", "Art contemporain"]
+    "https://www.facebook.com/aurelien.delwood"
+  ]
 }
 </script>
 </head>
@@ -59,12 +56,9 @@
 <header class="site-header">
   <a class="logo" href="index.html">DEL<span>WOOD</span></a>
   <nav class="nav-primary" aria-label="Navigation principale">
-    <a href="#oeuvres">Œuvres</a>
-    <a href="#fresques">Fresques &amp; art mural</a>
-    <a href="#architecture">Art &amp; architecture</a>
-    <a href="entreprises.html">Entreprises</a>
-    <a href="#apropos">À propos</a>
-    <a class="nav-contact" href="#contact">Contact</a>
+    <a href="entreprises.html" aria-current="page">Entreprises</a>
+    <a href="chemin-de-vie.html">Chemin de vie</a>
+    <a class="nav-contact" href="entreprises.html#contact">Contact</a>
   </nav>
   <button class="nav-toggle" data-nav-toggle aria-label="Ouvrir le menu" aria-expanded="false">
     <span></span><span></span><span></span>
@@ -73,396 +67,292 @@
 
 <nav class="nav-mobile" aria-label="Navigation mobile">
   <ul>
-    <li><a href="#oeuvres">Œuvres</a></li>
-    <li><a href="#fresques">Fresques &amp; art mural</a></li>
-    <li><a href="#architecture">Art &amp; architecture</a></li>
     <li><a href="entreprises.html">Entreprises</a></li>
-    <li><a href="#apropos">À propos</a></li>
-    <li><a class="nav-mobile-contact" href="#contact">Contact</a></li>
+    <li><a href="chemin-de-vie.html">Chemin de vie</a></li>
+    <li><a class="nav-mobile-contact" href="entreprises.html#contact">Contact</a></li>
   </ul>
 </nav>
 
 <main id="contenu">
 
-<!-- HERO -->
-<section class="hero">
-  <div class="hero-media">
-    <video id="hero-video" autoplay muted loop playsinline poster="assets/img/hero-poster.webp">
-      <source media="(max-width: 767px)" src="assets/video/hero-vert.mp4" type="video/mp4">
-      <source src="assets/video/hero.mp4" type="video/mp4">
-    </video>
-    <script>
-      if (window.matchMedia("(max-width: 767px)").matches) {
-        document.getElementById("hero-video").setAttribute("poster", "assets/img/herovert-poster.webp");
-      }
-    </script>
-  </div>
-  <div class="hero-content">
-    <p class="hero-eyebrow">Artiste plasticien - Pays Basque</p>
-    <h1 class="hero-title">DELWOOD</h1>
-    <p class="hero-sub">Peinture · Fresques · Art mural · Créations sur mesure</p>
-    <div class="hero-foot">
-      <p class="hero-tagline"><span class="italic">De la toile au mur.</span><br>Du mur à l'espace.</p>
-      <a class="btn btn--accent" href="#contact">Parlons-en</a>
-    </div>
+<section class="page-hero">
+  <div class="container">
+    <p class="breadcrumb"><a href="index.html">Accueil</a> / Entreprises</p>
+    <h1 class="h1">Vos pièces industrielles ont une histoire. <span class="italic">Delwood la peint.</span></h1>
+    <p class="lead" style="margin-top:1.5rem">
+      Delwood, artiste plasticien à Biarritz, crée pour les entreprises des œuvres sur mesure&nbsp;:
+      sur une pièce de votre activité, sur vos murs ou en direct pendant vos événements.
+    </p>
+    <a class="btn btn--accent" href="#contact" style="margin-top:2rem">Parler de votre projet</a>
   </div>
 </section>
 
-<!-- DOCUMENTAIRE -->
-<section class="section" id="documentaire" aria-labelledby="documentaire-titre">
+<section class="section--tight" id="film" aria-labelledby="film-titre">
   <div class="container">
     <div class="grid">
       <div class="col-7 reveal">
-        <div class="video-embed" data-youtube-embed="2J7MZ--tcww" data-video-title="Optima by Delwood - Quand un hélicoptère devient une œuvre d'art" role="button" tabindex="0" aria-label="Lire la vidéo Optima by Delwood">
-          <img src="assets/img/miniature-2J7MZ--tcww.webp" width="1280" height="720" alt="">
+        <div class="video-embed" data-youtube-embed="2J7MZ--tcww" data-video-title="Optima by Delwood - Quand un hélicoptère devient une œuvre d'art" role="button" tabindex="0" aria-label="Lire le film Optima by Delwood">
+          <img src="assets/img/miniature-2J7MZ--tcww.webp" width="1280" height="720" alt="Éléments de fuselage d'EC135 assemblés en une pièce unique, peints par Delwood de vagues bleues et blanches pour Optima Aero">
           <div class="video-embed__play">
             <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="12" r="11.3" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M10 8.5l6 3.5-6 3.5z"/></svg>
           </div>
-          <span class="video-embed__label">Optima by Delwood · film</span>
         </div>
       </div>
-      <div class="col-4 col-start-9 reveal">
-        <h2 id="documentaire-titre" class="h3 mt-0">Optima Aero. Quand un hélicoptère devient une œuvre.</h2>
+      <div class="col-4 col-start-9 reveal" style="align-self:center">
+        <h2 id="film-titre" class="h3 mt-0">Optima Aero. Quand un hélicoptère devient une œuvre.</h2>
         <p class="body-text" style="margin-top:1.2rem">
-          Un film documente l'intervention de Delwood sur des éléments de fuselage d'EC135
-          pour Optima Aero : de l'esquisse à la pièce peinte, en environnement industriel.
+          Delwood intervient sur des éléments de fuselage d'EC135 pour Optima Aero, en
+          environnement industriel. Le film suit la création, de l'esquisse à la pièce peinte.
         </p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- SELECTION DE PROJETS -->
-<section class="section section--tight section--shade" aria-labelledby="selection-titre">
+<section class="section--tight section--shade" id="offres" aria-labelledby="offres-titre">
   <div class="container">
     <div class="section-head reveal">
-      <h2 id="selection-titre" class="h2">Quelques repères dans une œuvre en mouvement.</h2>
+      <h2 id="offres-titre" class="h2 mt-0">Quatre façons de travailler ensemble.</h2>
     </div>
-    <div class="index-list reveal-stagger">
-      <a class="index-row" href="#fresques">
-        <span class="index-row__num">01</span>
-        <span class="index-row__title">Confluence</span>
-        <span class="index-row__meta">Labenne, 2024 · Fresque</span>
-      </a>
-      <a class="index-row" href="#fresques">
-        <span class="index-row__num">02</span>
-        <span class="index-row__title">Bidean</span>
-        <span class="index-row__meta">Bayonne, 2025 · Fresque avec Elzarra</span>
-      </a>
-      <a class="index-row" href="#oeuvres">
-        <span class="index-row__num">03</span>
-        <span class="index-row__title">Les chemins de l'esprit</span>
-        <span class="index-row__meta">Galerie Jung · Peinture, 120 x 120 cm</span>
-      </a>
-      <a class="index-row" href="#fresques">
-        <span class="index-row__num">04</span>
-        <span class="index-row__title">Korail</span>
-        <span class="index-row__meta">Bayonne · Fresque murale</span>
-      </a>
+    <div class="offer-grid reveal-stagger">
+      <article class="offer">
+        <h3 class="h4">Œuvre signature sur une pièce de votre activité</h3>
+                <!-- VALIDÉ par l'artiste le 20/11/2026 : pièce réformée -->
+<p>Une pièce réformée de votre production devient une œuvre, pour votre hall ou votre espace d'accueil.</p>
+        <p class="caption">Pour&nbsp;: directions de la communication, responsables de site</p>
+      </article>
+      <article class="offer">
+        <h3 class="h4">Série limitée et trophées</h3>
+        <p>Des pièces uniques ou en série limitée, comme les trophées créés pour Osaba à la place des coupes.</p>
+        <p class="caption">Pour&nbsp;: cadeaux clients, partenaires, salariés</p>
+      </article>
+      <article class="offer">
+        <h3 class="h4">Live painting</h3>
+        <p>Delwood peint en direct, pendant votre événement ou sur votre stand.</p>
+        <p class="caption">Pour&nbsp;: événements, salons</p>
+      </article>
+      <article class="offer">
+        <h3 class="h4">Art &amp; architecture</h3>
+        <p>Une œuvre pensée avec le lieu, dès l'esquisse, pour un bâtiment, un intérieur ou un site.</p>
+        <p class="caption">Pour&nbsp;: architectes, lieux d'accueil, collectivités</p>
+      </article>
     </div>
   </div>
 </section>
 
-<!-- CHEMINS DE VIE -->
-<section class="section" id="chemins-de-vie" aria-labelledby="chemins-de-vie-titre">
+<section class="section--tight" id="references" aria-labelledby="references-titre">
   <div class="container">
-    <div class="grid">
-      <div class="col-4 reveal">
-        <h2 id="chemins-de-vie-titre" class="h2 mt-0">Chemins de vie : le dessin comme cartographie.</h2>
-        <p class="body-text" style="margin-top:1.5rem">
-          Une part importante du travail actuel de Delwood : des dessins à l'encre où les
-          quartiers de Bayonne, Saint-Esprit, le Paris-Madrid, se redessinent en architectures
-          imaginaires, peuplées des masques et des visages qui traversent toute son œuvre.
-        </p>
-        <a class="link-arrow" href="chemin-de-vie.html" style="margin-top:2rem">
-          Imaginer le vôtre
-          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg>
-        </a>
-      </div>
-      <div class="col-7 col-start-6 reveal">
-        <div class="media" style="--ratio: 1/1">
-          <img src="assets/img/chemins-de-vie-960.webp" width="1440" height="1440" srcset="assets/img/chemins-de-vie-960.webp 960w, assets/img/chemins-de-vie.webp 1440w" sizes="(min-width: 768px) 58vw, 100vw" alt="Chemins de vie, dessin à l'encre de Delwood représentant le quartier Saint-Esprit à Bayonne" loading="lazy">
+    <div class="section-head reveal">
+      <h2 id="references-titre" class="h2 mt-0">Ils ont travaillé avec Delwood.</h2>
+    </div>
+    <!-- Optima Aero, Cap Valeur et Osaba ont accepté d'être cités (clause des contrats signés à la réalisation des œuvres). Logos seulement si le contrat couvre aussi leur usage -->
+    <ul class="reveal">
+      <li class="ref ref--photo">
+        <div class="media" style="--ratio: 16/9">
+          <img src="assets/img/miniature-2J7MZ--tcww.webp" width="1280" height="720" alt="Éléments de fuselage d'EC135 peints par Delwood pour Optima Aero" loading="lazy">
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- FRESQUES MONUMENTALES -->
-<section class="section" id="fresques" aria-labelledby="fresques-titre">
-  <div class="container">
-    <div class="grid">
-      <div class="col-7 reveal">
-        <div class="media" style="--ratio: 5/6">
-          <img src="assets/img/fresque-bayonne-960.webp" width="1440" height="1440" srcset="assets/img/fresque-bayonne-960.webp 960w, assets/img/fresque-bayonne.webp 1440w" sizes="(min-width: 768px) 58vw, 100vw" alt="Fresque murale de Delwood, Bayonne" loading="lazy">
+        <div>
+          <p class="caption" style="margin:0">Environnement industriel</p>
+          <h3 class="h4" style="margin-top:0.6rem">Optima Aero</h3>
+          <p>Éléments de fuselage d'EC135, peints par Delwood. Un film documente l'intervention.</p>
         </div>
-      </div>
-      <div class="col-4 col-start-9 reveal">
-        <h2 id="fresques-titre" class="h2 mt-0">Fresques &amp; art mural.</h2>
-        <p class="body-text" style="margin-top:1.5rem">
-          Sur les murs de Bayonne, Labenne, Bidart ou Seignosse, Delwood construit des œuvres
-          monumentales pensées pour leur lieu : parcours de mobilité douce, résidences,
-          façades d'auberges. Chaque fresque naît d'un dialogue avec l'architecture
-          et l'histoire du site.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- OEUVRES -->
-<section class="section section--shade" id="oeuvres" aria-labelledby="oeuvres-titre">
-  <div class="container">
-    <div class="grid">
-      <div class="col-4 reveal">
-        <h2 id="oeuvres-titre" class="h2 mt-0">Œuvres.</h2>
-        <p class="body-text" style="margin-top:1.5rem">
-          Peinture Golden, encres et gravures sur toile : la série <em>Les chemins de l'esprit</em>,
-          présentée à la Galerie Jung, prolonge sur la toile ce que la rue et le mur ont
-          appris à Delwood. Montagnes en hachures, volutes cinétiques, visages devenus signes.
-        </p>
-        <a class="link-arrow" href="oeuvres.html" style="margin-top:2rem">
-          Voir toutes les œuvres
-          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg>
-        </a>
-      </div>
-      <div class="col-7 col-start-6 reveal">
-        <!-- TEMPORAIRE : image hotlinkée depuis le dossier de recherche (droits non confirmés) - remplacer par le fichier HD fourni par l'artiste - Les chemins de l'esprit -->
-        <div class="media" style="--ratio: 1/1">
-          <img src="assets/img/chemins-esprit-960.webp" srcset="assets/img/chemins-esprit-960.webp 960w, assets/img/chemins-esprit.webp 1177w" sizes="(min-width: 768px) 50vw, 100vw" width="1177" height="1182" alt="Les chemins de l'esprit, peinture Golden, encres et gravures sur toile, Galerie Jung" loading="lazy">
+      </li>
+      <li class="ref ref--photo">
+        <div class="media" style="--ratio: 4/3">
+          <img src="assets/img/cap-valeur-mur-960.webp" srcset="assets/img/cap-valeur-mur-960.webp 960w, assets/img/cap-valeur-mur.webp 1600w" sizes="(min-width: 768px) 16rem, 100vw" width="1600" height="1200" alt="Œuvre à l'encre de Delwood pour le Groupe Cap Valeur : une ville imaginaire dessinée en noir et blanc sur un mur noir, sous la signature Cap Valeur" loading="lazy">
         </div>
-      </div>
-    </div>
+        <div>
+          <p class="caption" style="margin:0">Bidart · 2021</p>
+          <h3 class="h4" style="margin-top:0.6rem">Groupe Cap Valeur</h3>
+          <p>Une œuvre qui raconte l'histoire du groupe. Elle a été dévoilée lors d'un vernissage privé dans ses locaux.</p>
+        </div>
+      </li>
+      <li class="ref">
+        <div>
+          <p class="caption" style="margin:0">Anglet · 2023</p>
+          <h3 class="h4" style="margin-top:0.6rem">Osaba</h3>
+          <p>Des trophées uniques à la place des coupes, pour le tournoi Orok Bat.</p>
+        </div>
+      </li>
+      <!-- VALIDÉ par l'artiste le 20/11/2026 : accord de citation de Pavillon Noir / Coca-Cola -->
+      <li class="ref">
+        <div>
+          <p class="caption" style="margin:0">Cité de la Mode, Paris · 2017</p>
+          <h3 class="h4" style="margin-top:0.6rem">Pavillon Noir pour Coca-Cola</h3>
+          <p>Live painting.</p>
+        </div>
+      </li>
+      <!-- À VALIDER : accord de citation de La Maison du Marquis. Lieu et année : exposition « Les parenthèses de V. », Biarritz, septembre 2020 (galerie Virginie Baro) -->
+      <li class="ref">
+        <div>
+          <p class="caption" style="margin:0">Biarritz · 2020</p>
+          <h3 class="h4" style="margin-top:0.6rem">La Maison du Marquis</h3>
+          <p>Une œuvre de Delwood présentée à La Maison du Marquis, lors de l'exposition collective «&nbsp;Les parenthèses de V.&nbsp;».</p>
+        </div>
+      </li>
+    </ul>
   </div>
 </section>
 
-<div class="signe-divider reveal" aria-hidden="true">
-  <svg class="signe" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" viewBox="0 0 271 234"><path fill="currentColor" fill-rule="evenodd" d="M71.8 192c7 12.7 37.6 15 54 8.7 2.3-.8 4.8-2 5.8-3.7-21.7.8-42.7-1-60-5.9q-.1.7.2.9m49.9-24.2c-7.8-1-8.8 8.5-14.9 8.2-4.6-.3-6.9-7.7-11-9-8-2.7-13.2 3.9-16.7 7.8-2.8 3.2-6.4 6-7.8 9 18 6.7 41.8 6.5 66.1 6.4-2.2-7.5-7-21.3-15.7-22.4m25.6-33c-8.1 6.1-14.3 16-28.2 16-3.1 0-5.2-.8-8.5-1-7-.6-16.4.2-21.3-3.9.9-7.3 1.8-14.5 1.5-23-2.5 1.7-4 4.6-5.6 7-5 7.8-9.6 15.2-15.1 22.4-7.2 9.5-16.5 17.7-21.6 29 23.2 3.6 25.6-20.7 43.7-20.8 5 0 8 1.9 10.8 3.8 3.2 2.2 4 3 7.3 1.2 9.5-5.2 22.1-1.8 27.4 6 2.6 4 3.1 9.8 6.7 14.4 3.9 5 12 3.8 18.1 7-1.6 6.9-10.6 4.7-17.2 5.8-7.2 1.2-13.6 6-20.4 8.2a80 80 0 0 1-24.5 4.3c-22.1-.1-31.4-15.4-47.5-23 5.3 14 17.9 22.3 32.6 27.4 15 5.2 33.8 7.7 54 6.1a94 94 0 0 0 40-14 103 103 0 0 0 28.8-25q-40.8-31.4-59.2-85.2h-.6c-3.8 10.4-1.6 25-1.2 37.4m-67-29.5c-13.3 3-21.8-9.2-30-12.5-10.5 18.2-13.3 51.3-7 75.8 5.3-4.2 9.3-9.9 13.4-15.2q6-8.3 11.6-16.9C76 125.2 84 114 90.8 102c-5.5 0-6.7 2.7-10.5 3.5M202 85.3c1 6.7-.8 11.4-3.7 14.9-2.7 3-7 4.4-9.4 7.5 10.9.7 22.1.2 29.2-3.7-3-9-8-15.7-16-19.6Zm-18 14.6c7.4 2.7 13.2-6.4 9.6-14.3-3-1.8-8-1.7-12.3-2.3-4.7 4.5-3 14.5 2.7 16.6M57 87.9c4 2.4 6.1 6.7 11 8.2-2-4.4-2-10.7-4.3-14.6-2.6 1.8-6 2.7-6.7 6.4m15.7-7.8c-4.4 8 .4 14.5 9.3 13.4 7.5-1 8.1-11.5 1-13.4 2.5 3.7 2.4 10.6-2.1 11.6-2.5.6-5.5-.2-6.2-2.6-1.2-5 3.5-6.7 5.6-9-3-.4-5.4 1.2-7.6 0m83.4 1.4c3.6 7.2 9 12.7 14.3 18.4 3 .7 3.8 3.7 7.8 3.5-.5-1.6-2-2.2-2.9-3.8-3.7-6.6-2-17.3 1.5-21.6-7.5.6-16 .1-20.7 3.5m-61.5 7c4.4-1.4 6-5.6 7.6-10-4.1-.3-5.8-3-10.5-2.8.6 4.5 4 7.4 2.9 12.8m138.2 58.3a97 97 0 0 0 11.3-37.3c.4-8-3-16.2-5.2-24-6-20.7-17.1-38-40.5-39.3-4-.2-9-.3-12 .3-14.4 3-23 16.5-29.2 28.3 9.1-1 17.3-4.6 26.6-4.4 12.9.3 25.4 6.6 33.2 14.3 6.4 6.3 12 14.7 11 25.7-13 .7-23.9 5.8-36.4 5-5.5-.4-11-2.2-15.7-4.4a82 82 0 0 1-19.2-13.7q16.1 52.5 57.7 79.8c6.1-8.8 12.9-19 18.4-30.3m-104.1-9.6c4.2-.9 9-2 9.9-5.6.7-3-.6-7-.6-10.2 0-34.4 14.9-60.1 35-74.6 1-.7 4.3-2.5 2.3-3.5-33.2 13.6-44.4 49.3-46.6 93.9m9.3-84a112 112 0 0 0-38.8 84c8 .5 14.5 2.3 22.5 2.6 1-48.6 15.1-84.2 47-102A57 57 0 0 0 138 53.2m5.3-31.7a95 95 0 0 0-51 18.3 105 105 0 0 0-32.7 37c9-3.3 18.6-8.8 30.3-9.6 9.2-.6 15.3 4.4 22.5 7a94 94 0 0 1 25.3-30c10.8-8 24-12.3 38.2-17.2-9.3-4-19.8-6.5-32.6-5.5m-1.5-12.6a62 62 0 0 1 47.8 16c1.5 1.3 3 3.5 4.7 4.4 3.4 2 7.1 2.6 10.2 4.1a84 84 0 0 1 24.2 18.4 67 67 0 0 1 18 38.7c5.5 37-10.4 64.6-25.6 85.5-16.3 22.3-35.2 39.4-65.6 48a112 112 0 0 1-82-8.1 48 48 0 0 1-18.9-16.3 98 98 0 0 1-19.8-64.7c.9-19.4 6.5-35.2 13.7-49.6 14-27.7 33-50.8 60.6-66.2A79 79 0 0 1 141.8 9"/><path fill="var(--paper)" fill-rule="evenodd" d="M176 27c-14.3 4.9-27.5 9.2-38.3 17.2a94 94 0 0 0-25.3 30c-7.2-2.6-13.3-7.6-22.5-7-11.7.8-21.3 6.3-30.3 9.6a105 105 0 0 1 32.6-37 95 95 0 0 1 51-18.3c12.9-1 23.4 1.5 32.7 5.5"/><path fill="var(--paper)" fill-rule="evenodd" d="M168.6 37.8c-31.8 17.8-45.8 53.4-47 102-8-.3-14.5-2.2-22.4-2.6.5-38.4 18.1-64.8 38.8-84 7.1-6.6 18.8-14.4 30.6-15.4"/><path fill="var(--paper)" fill-rule="evenodd" d="M175.3 43.3c2 1-1.4 2.8-2.3 3.5-20.1 14.5-35 40.2-35 74.6 0 3.1 1.3 7.1.6 10.2-.8 3.5-5.7 4.7-10 5.6 2.3-44.6 13.5-80.3 46.7-93.9"/><path fill="var(--paper)" fill-rule="evenodd" d="M214.4 177.1a142 142 0 0 1-57.7-79.8c5.6 5 11.6 10 19.2 13.7 4.7 2.2 10.2 4 15.8 4.3 12.4.9 23.3-4.2 36.4-5 .9-10.9-4.7-19.3-11-25.6a51 51 0 0 0-33.3-14.3c-9.3-.2-17.5 3.5-26.6 4.4 6.2-11.8 14.8-25.2 29.2-28.3 3-.6 8-.5 12-.3 23.4 1.3 34.5 18.6 40.5 39.4 2.2 7.7 5.6 15.8 5.2 23.9a97 97 0 0 1-11.3 37.3 222 222 0 0 1-18.4 30.3M91.7 75.7c4.7-.3 6.4 2.5 10.5 2.9-1.5 4.3-3.2 8.5-7.6 9.9 1.2-5.4-2.3-8.3-3-12.8"/><path fill="var(--paper)" fill-rule="evenodd" d="M176.8 78c-3.4 4.3-5.2 15-1.5 21.6 1 1.6 2.4 2.2 3 3.8-4 .2-5-2.8-8-3.5-5.1-5.7-10.6-11.2-14.2-18.4 4.7-3.4 13.2-3 20.7-3.5M80.3 80c-2.1 2.4-6.8 4.2-5.6 9 .7 2.5 3.7 3.3 6.2 2.7 4.5-1 4.6-8 2-11.6 7.2 1.9 6.6 12.4-.9 13.4-9 1.1-13.7-5.4-9.3-13.4 2.2 1.2 4.6-.4 7.6 0M63.7 81.5c2.4 4 2.4 10.2 4.3 14.6-4.9-1.5-7-5.8-11-8.2.6-3.7 4.1-4.6 6.7-6.4"/><path fill="var(--paper)" fill-rule="evenodd" d="M192 88.5c-2-7-15.4-.5-10.3 6.7 1.4 1.9 3.9 2.1 7.6 2 1-3.1 3.7-4.7 2.6-8.7m-10.5-5.2c4.3.6 9.3.5 12.3 2.3 3.6 8-2.2 17-9.6 14.3-5.7-2-7.4-12.1-2.7-16.6M202.1 84.4a31 31 0 0 1 16 19.6c-7 4-18.2 4.4-29 3.7 2.4-3.1 6.6-4.5 9.3-7.5 3-3.5 4.8-8.2 3.7-14.9Zm0 0"/><path fill="currentColor" fill-rule="evenodd" d="M189.3 97.3c-3.7 0-6.2-.2-7.6-2-5-7.3 8.3-13.8 10.2-6.8 1.1 4-1.6 5.6-2.6 8.8"/><path fill="var(--paper)" fill-rule="evenodd" d="M90.8 102c-6.8 11.9-14.9 23.2-22.5 34.6q-5.6 8.6-11.6 17c-4 5.2-8.2 11-13.4 15-6.3-24.4-3.5-57.5 7-75.7 8.2 3.3 16.7 15.5 30 12.5 3.8-.8 5-3.5 10.5-3.5M148.5 97.5h.6q18.4 53.8 59.2 85.2a103 103 0 0 1-28.9 25 94 94 0 0 1-40 14c-20.1 1.6-39-1-53.9-6-14.7-5.2-27.3-13.4-32.6-27.5 16 7.6 25.4 22.9 47.5 23 8.2.1 17-2 24.5-4.3 6.8-2.3 13.2-7 20.4-8.2 6.6-1.1 15.6 1 17.2-5.8-6.2-3.2-14.2-2-18-7-3.7-4.7-4.2-10.4-6.8-14.3-5.3-7.9-18-11.3-27.4-6.1-3.4 1.8-4.1 1-7.3-1.2-2.8-2-5.8-3.8-10.8-3.8-18 .1-20.5 24.4-43.7 20.7 5.1-11.2 14.4-19.4 21.6-28.9 5.5-7.2 10.1-14.6 15.1-22.4 1.6-2.4 3-5.3 5.6-7 .3 8.5-.6 15.7-1.5 23 4.9 4.1 14.3 3.3 21.3 3.8 3.3.3 5.4 1.2 8.5 1.2 13.9 0 20-10 28.2-16-.4-12.4-2.6-27 1.2-37.4"/><path fill="var(--paper)" fill-rule="evenodd" d="M137.4 190.2c-24.3.1-48 .3-66.1-6.4 1.4-3 5-5.8 7.8-9 3.5-4 8.6-10.5 16.6-7.9 4.2 1.4 6.5 8.8 11.1 9 6 .4 7.1-9.1 14.9-8.1 8.8 1.1 13.5 14.9 15.7 22.4M71.5 191.1c17.4 5 38.4 6.7 60 5.9-1 1.8-3.4 2.9-5.7 3.7-16.4 6.3-47 4-54-8.7q-.3-.1-.3-.9"/></svg>
-</div>
-
-<!-- ART & ARCHITECTURE -->
-<section class="section section--ink" id="architecture" aria-labelledby="architecture-titre">
+<section class="section--tight section--shade" id="deroule" aria-labelledby="deroule-titre">
   <div class="container">
-    <div class="grid">
-      <div class="col-6 reveal">
-        <h2 id="architecture-titre" class="h2 mt-0">Créer une œuvre qui appartient au lieu.</h2>
-        <p class="lead" style="margin-top:1.5rem; color:rgba(241,239,232,0.72)">
-          Architectes, hôtels, restaurants, marques et collectivités font appel à Delwood pour
-          intégrer une œuvre à un bâtiment, un intérieur ou un territoire, dès la conception.
-        </p>
-        <a class="link-arrow" href="art-architecture.html" style="margin-top:2rem">
-          Découvrir art &amp; architecture
-          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg>
-        </a>
-      </div>
-      <div class="col-5 col-start-8 reveal">
-        <ul class="proof-list">
-          <li>
-            <h3 class="h4">Optima Aero</h3>
-            <p>Intervention artistique sur des éléments de fuselages d'EC135, en environnement industriel.</p>
-          </li>
-          <li>
-            <h3 class="h4">La Maison du Marquis</h3>
-            <p>Une œuvre de Delwood présentée à La Maison du Marquis, à Biarritz, lors de l'exposition collective «&nbsp;Les parenthèses de V.&nbsp;», en 2020.</p>
-          </li>
-        </ul>
-      </div>
+    <div class="section-head reveal">
+      <h2 id="deroule-titre" class="h2 mt-0">Comment ça se passe.</h2>
     </div>
+    <ol class="steps reveal-stagger">
+      <li>
+                <!-- VALIDÉ par l'artiste le 20/11/2026 : échange de 20 minutes -->
+<h3 class="h4">Un échange de 20&nbsp;minutes</h3>
+        <p>Vous présentez votre activité, votre lieu et ce que vous voulez en faire.</p>
+      </li>
+      <li>
+        <h3 class="h4">La visite et le choix de la pièce</h3>
+        <p>Delwood visite votre lieu, ou vous accueille à l'atelier. Vous choisissez ensemble la pièce.</p>
+      </li>
+      <li>
+        <h3 class="h4">L'esquisse et le devis</h3>
+        <p>Vous recevez une esquisse et un devis.</p>
+      </li>
+      <li>
+        <h3 class="h4">La création, la livraison et l'accrochage</h3>
+                <!-- VALIDÉ par l'artiste le 20/11/2026 : livraison, accrochage et images de la création offertes -->
+<p>Delwood crée l'œuvre, la livre et l'accroche. Les images de la création vous sont offertes pour votre communication interne.</p>
+      </li>
+    </ol>
   </div>
 </section>
 
-<!-- ART & TERRITOIRE -->
-<section class="section--tight" aria-labelledby="territoire-titre">
+<section class="section--tight" id="aeronautique" aria-labelledby="aeronautique-titre">
   <div class="container">
-    <div class="section-head reveal" style="margin-bottom: 2.5rem">
-      <h2 id="territoire-titre" class="h3 mt-0">Un art ancré dans le territoire.</h2>
-      <p class="body-text" style="margin-top:1rem">
-        Collectivités, institutions et associations environnementales : Delwood conçoit des
-        projets qui questionnent la place de l'humain dans le paysage.
+    <div class="callout reveal">
+              <!-- VALIDÉ par l'artiste le 20/11/2026 : pièce rendue inutilisable, traçabilité fournie par l'entreprise -->
+<h2 id="aeronautique-titre" class="h4 mt-0">Sur les pièces aéronautiques</h2>
+      <p>
+        L'œuvre est réalisée sur une pièce réformée, rendue inutilisable pour son usage
+        d'origine avant son arrivée à l'atelier. L'entreprise fournit la traçabilité de la pièce.
       </p>
-    </div>
-  </div>
-  <div class="marquee reveal" aria-label="Collaborations et partenaires">
-    <div class="marquee__track">
-      <div class="marquee__set">
-        <span>Ville de Bayonne</span>
-        <span>MACS</span>
-        <span>Indarra</span>
-        <span>BLOOM</span>
-        <span>Surfrider Foundation Europe</span>
-        <span>Galerie Jung</span>
-        <span>Optima Aero</span>
-      </div>
-      <div class="marquee__set">
-        <span>Ville de Bayonne</span>
-        <span>MACS</span>
-        <span>Indarra</span>
-        <span>BLOOM</span>
-        <span>Surfrider Foundation Europe</span>
-        <span>Galerie Jung</span>
-        <span>Optima Aero</span>
-      </div>
+      <p>Delwood a déjà travaillé en environnement industriel, pour Optima Aero.</p>
     </div>
   </div>
 </section>
 
-<!-- VIDEOS -->
-<!-- À VALIDER : droits de diffusion des vidéos (Pays Basque Drone, Bartlmy, Posca) -->
-<section class="section section--shade" id="videos" aria-labelledby="videos-titre">
-  <div class="container">
-    <div class="section-head reveal">
-      <h2 id="videos-titre" class="h2">Vidéos.</h2>
-    </div>
-    <div class="grid" style="row-gap: clamp(2.5rem, 5vw, 4.5rem)">
-
-      <div class="col-7 reveal">
-        <div class="video-embed" data-youtube-embed="byGNmf_26OM" data-video-title="Fleur de vie, Base de Pop, Pays Basque" role="button" tabindex="0" aria-label="Lire la vidéo Fleur de vie, Base de Pop">
-          <img src="assets/img/miniature-byGNmf_26OM.webp" width="1280" height="720" alt="" loading="lazy">
-          <div class="video-embed__play">
-            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="12" r="11.3" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M10 8.5l6 3.5-6 3.5z"/></svg>
-          </div>
-        </div>
-        <div class="figure-caption">
-          <div>
-            <p class="caption">Base de Pop · Pays Basque · © Pays Basque Drone</p>
-            <h3 class="h4" style="margin-top:0.4rem">Fleur de vie</h3>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-5 reveal">
-        <div class="video-embed" data-youtube-embed="DBnYzgXrqRc" data-video-title="Rame pour ta planète, mouvement solidaire" role="button" tabindex="0" aria-label="Lire la vidéo Rame pour ta planète">
-          <img src="assets/img/miniature-DBnYzgXrqRc.webp" width="1280" height="720" alt="" loading="lazy">
-          <div class="video-embed__play">
-            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="12" r="11.3" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M10 8.5l6 3.5-6 3.5z"/></svg>
-          </div>
-        </div>
-        <div class="figure-caption">
-          <div>
-            <p class="caption">Mouvement solidaire</p>
-            <h3 class="h4" style="margin-top:0.4rem">Rame pour ta planète</h3>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-5 reveal">
-        <div class="video-embed" data-youtube-embed="3rD22Gxdsmo" data-video-title="Création, art en entreprise, Cap Valeur" role="button" tabindex="0" aria-label="Lire la vidéo Art en entreprise, Cap Valeur">
-          <img src="assets/img/miniature-3rD22Gxdsmo.webp" width="1280" height="720" alt="" loading="lazy">
-          <div class="video-embed__play">
-            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="12" r="11.3" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M10 8.5l6 3.5-6 3.5z"/></svg>
-          </div>
-        </div>
-        <div class="figure-caption">
-          <div>
-            <p class="caption">Création · Art en entreprise</p>
-            <h3 class="h4" style="margin-top:0.4rem">Cap Valeur</h3>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-7 reveal">
-        <div class="video-embed" data-youtube-embed="0g8naGORH2U" data-video-title="Custom surfboards, Surf Session" role="button" tabindex="0" aria-label="Lire la vidéo Custom surfboards, Surf Session">
-          <img src="assets/img/miniature-0g8naGORH2U.webp" width="1280" height="720" alt="" loading="lazy" style="transform:scale(1.2)">
-          <div class="video-embed__play">
-            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="12" r="11.3" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M10 8.5l6 3.5-6 3.5z"/></svg>
-          </div>
-        </div>
-        <div class="figure-caption">
-          <div>
-            <p class="caption">Surf Session</p>
-            <h3 class="h4" style="margin-top:0.4rem">Custom surfboards</h3>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-7 reveal">
-        <div class="video-embed" data-youtube-embed="WDCt9bUhF5w" data-video-title="Peyragudes, N'PY Cup, Posca" role="button" tabindex="0" aria-label="Lire la vidéo Peyragudes, N'PY Cup, Posca">
-          <img src="assets/img/miniature-WDCt9bUhF5w.webp" width="1280" height="720" alt="" loading="lazy">
-          <div class="video-embed__play">
-            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="12" r="11.3" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M10 8.5l6 3.5-6 3.5z"/></svg>
-          </div>
-        </div>
-        <div class="figure-caption">
-          <div>
-            <p class="caption">N'PY Cup · Posca · © Bartlmy</p>
-            <h3 class="h4" style="margin-top:0.4rem">Peyragudes</h3>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-5 reveal">
-        <div class="video-embed" data-youtube-embed="UQ0SflU1doY" data-video-title="La Source-Iturria, l'art au service du social" role="button" tabindex="0" aria-label="Lire la vidéo La Source-Iturria">
-          <img src="assets/img/miniature-UQ0SflU1doY.webp" width="1280" height="720" alt="" loading="lazy">
-          <div class="video-embed__play">
-            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="12" r="11.3" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M10 8.5l6 3.5-6 3.5z"/></svg>
-          </div>
-        </div>
-        <div class="figure-caption">
-          <div>
-            <p class="caption">L'art au service du social</p>
-            <h3 class="h4" style="margin-top:0.4rem">La Source-Iturria</h3>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- A PROPOS -->
-<section class="section" id="apropos" aria-labelledby="apropos-titre">
+<section class="section--tight section--shade" id="enveloppe" aria-labelledby="budget-titre">
   <div class="container">
     <div class="grid">
-      <div class="col-5 reveal">
-        <!-- REMPLACER : photo HD fournie par l'artiste - portrait de Delwood (photo HD DSC_6380 fournie par l'artiste, septembre 2026) -->
-        <div class="media" style="--ratio: 4/5">
-          <img src="assets/img/portrait-960.webp" srcset="assets/img/portrait-960.webp 960w, assets/img/portrait.webp 1200w" sizes="(min-width: 768px) 40vw, 100vw" width="1200" height="1804" alt="Portrait de Delwood, artiste plasticien du Pays Basque" loading="lazy">
-        </div>
+      <div class="col-4 reveal">
+        <h2 id="budget-titre" class="h2 mt-0">Le budget.</h2>
       </div>
-      <div class="col-6 col-start-7 reveal">
-        <h2 id="apropos-titre" class="h2 mt-0">À propos.</h2>
-        <p class="quote" style="margin-top:1.5rem">
-          « Le visage est devenu un signe. Un masque, un passage, une manière de communiquer
-          sans parler. »
+      <div class="col-7 col-start-6 reveal">
+        <!-- Aucun prix affiché. Si un prix plancher est fourni : ajouter « À partir de [montant]&nbsp;€ HT » sous chaque offre -->
+        <p class="lead" style="max-width:none">
+          Chaque œuvre est conçue pour un lieu et un support&nbsp;: le budget dépend de la taille,
+          de la technique et du temps de création.
         </p>
-        <p class="body-text" style="margin-top:1.5rem">
-          Depuis les années 2000, entre Bayonne et l'océan, Delwood construit une œuvre nourrie
-          par le graffiti, le surf et le paysage basque. Le masque, la montagne et la vague en
-          sont les signes récurrents.
+        <p class="body-text" style="margin-top:1.2rem">
+          Indiquez une enveloppe, même large. Delwood vous propose une esquisse qui la respecte.
         </p>
-        <a class="link-arrow" href="a-propos.html" style="margin-top:2rem">
-          Découvrir toute la démarche
-          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg>
-        </a>
       </div>
     </div>
   </div>
 </section>
 
-<!-- CONTACT -->
+<section class="section--tight" id="fiscalite" aria-labelledby="fiscalite-titre">
+  <div class="container">
+    <div class="grid">
+      <div class="col-4 reveal">
+        <h2 id="fiscalite-titre" class="h2 mt-0">L'avantage fiscal.</h2>
+      </div>
+      <div class="col-7 col-start-6 reveal">
+        <div class="body-text">
+          <p>
+            Une entreprise qui achète l'œuvre originale d'un artiste vivant et l'expose pendant
+            5&nbsp;ans dans un lieu accessible aux salariés ou au public peut déduire le prix
+            d'achat par cinquièmes, dans la limite de 20&nbsp;000&nbsp;€ ou de 5&nbsp;‰ de son
+            chiffre d'affaires hors taxe si ce montant est plus élevé
+            (article 238&nbsp;bis&nbsp;AB du CGI).
+          </p>
+          <p>
+                        <!-- VALIDÉ par l'artiste le 20/11/2026 : exclusion des CSE et des associations -->
+Le dispositif ne concerne pas les CSE ni les associations. Un bureau ne compte pas
+            comme lieu d'exposition.
+          </p>
+          <p>
+            À valider avec votre expert-comptable.
+            <a class="link-arrow" href="https://entreprendre.service-public.gouv.fr/vosdroits/F32914" target="_blank" rel="noopener" style="margin-left:0.4rem">
+              Détail sur service-public.fr
+              <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section--tight section--shade" id="questions" aria-labelledby="questions-titre">
+  <div class="container">
+    <div class="grid">
+      <div class="col-4 reveal">
+        <h2 id="questions-titre" class="h2 mt-0">Questions fréquentes.</h2>
+      </div>
+      <div class="col-7 col-start-6 reveal faq">
+        <details>
+          <summary>Quels sont les délais&nbsp;?</summary>
+          <p>Ils dépendent de la taille de l'œuvre et de la technique. Comptez en général 2&nbsp;mois entre le devis et la livraison.</p>
+        </details>
+        <details>
+          <summary>Delwood se déplace-t-il&nbsp;?</summary>
+          <p>Oui. L'atelier est à Biarritz&nbsp;: Delwood intervient au Pays Basque et alentours, et plus loin selon le projet.</p>
+        </details>
+        <details>
+          <summary>Que puis-je faire des images de l'œuvre&nbsp;?</summary>
+          <p>Les images de la création sont offertes pour votre communication interne. [À FOURNIR&nbsp;: droits d'utilisation des images de l'œuvre hors communication interne]</p>
+        </details>
+        <details>
+          <summary>Comment se passe la facturation&nbsp;?</summary>
+          <p>Delwood est artiste auteur (SIRET 499&nbsp;040&nbsp;798&nbsp;00047).</p>
+        </details>
+        <details>
+          <summary>Peut-on peindre une pièce aéronautique&nbsp;?</summary>
+          <p>Oui, sur une pièce réformée, rendue inutilisable pour son usage d'origine avant son arrivée à l'atelier. L'entreprise fournit la traçabilité de la pièce.</p>
+        </details>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="section section--ink" id="contact" aria-labelledby="contact-titre">
   <div class="container">
     <div class="section-head reveal text-center">
       <h2 id="contact-titre" class="display" style="margin-top:0; font-size:var(--step-h1)">
-        Vous avez un lieu, un projet<br>ou une idée ?<br><span class="italic" style="color:var(--accent-soft)">Parlons-en.</span>
+        Parlons de<br><span class="italic" style="color:var(--accent-soft)">votre projet.</span>
       </h2>
     </div>
 
     <div class="grid" style="margin-top:clamp(2.5rem,5vw,4rem)">
       <div class="col-7 reveal">
 
+        <div class="contact-routes">
+          <!-- Page de réservation Google Agenda fournie par l'artiste le 20/11/2026 -->
+          <a class="btn btn--accent btn--wrap" href="https://calendar.app.google/Jt4fCZ7cfKozUzR87" target="_blank" rel="noopener">Réserver un échange de 20&nbsp;minutes</a>
+        </div>
+
         <!-- Formulaire statique, sans backend : soumission via mailto: côté client. -->
-        <!-- À VALIDER : l'adresse de destination du formulaire (aurelien@delwood.fr) vient de l'ancien site, voir assets/js/main.js -->
-        <!-- brancher Formspree ou équivalent en production si un envoi direct est souhaité -->
-        <form data-contact-form>
+        <!-- TODO : la boîte aurelien@delwood.fr doit exister avant la mise en ligne (adresse de destination dans assets/js/main.js) -->
+        <form id="formulaire" data-contact-form>
+          <input type="hidden" id="origine" name="origine" value="">
           <div class="form-grid form-grid--2">
             <div class="field">
               <label for="nom">Nom</label>
               <input type="text" id="nom" name="nom" autocomplete="name" required>
             </div>
             <div class="field">
-              <label for="organisation">Organisation</label>
-              <input type="text" id="organisation" name="organisation" autocomplete="organization">
+              <label for="entreprise">Entreprise (facultatif)</label>
+              <input type="text" id="entreprise" name="entreprise" autocomplete="organization">
+            </div>
+            <div class="field">
+              <label for="fonction">Fonction (facultatif)</label>
+              <input type="text" id="fonction" name="fonction" autocomplete="organization-title">
             </div>
             <div class="field">
               <label for="email">Email</label>
@@ -471,11 +361,11 @@
             <div class="field">
               <label for="type_projet">Type de projet</label>
               <select id="type_projet" name="type_projet">
+                <option value="Projet d'entreprise" selected>Projet d'entreprise</option>
                 <option value="Œuvre / acquisition">Œuvre / acquisition</option>
                 <option value="Commande sur mesure">Commande sur mesure</option>
                 <option value="Fresque murale">Fresque murale</option>
                 <option value="Projet art & architecture">Projet art &amp; architecture</option>
-                <option value="Projet d'entreprise">Projet d'entreprise</option>
                 <option value="Autre">Autre</option>
               </select>
             </div>
@@ -485,12 +375,12 @@
             </div>
             <div class="field">
               <label for="budget">Budget indicatif</label>
-              <input type="text" id="budget" name="budget" placeholder="Ex. 5 000 - 15 000 €">
+              <input type="text" id="budget" name="budget" placeholder="Une enveloppe, même large">
             </div>
           </div>
           <div class="field" style="margin-top:1.75rem">
             <label for="message">Message</label>
-            <textarea id="message" name="message" required placeholder="Décrivez votre lieu, votre projet ou votre idée."></textarea>
+            <textarea id="message" name="message" required placeholder="Décrivez votre activité, votre lieu ou votre idée."></textarea>
           </div>
           <p class="field-hint" style="margin-top:1rem">
             En envoyant ce message, votre messagerie s'ouvre avec les informations pré-remplies.
@@ -501,7 +391,8 @@
       </div>
       <div class="col-4 col-start-9 reveal">
         <dl class="credits" style="display:flex; flex-direction:column; gap:1.6rem">
-          <!-- À VALIDER : email, téléphone et adresse de l'atelier issus de l'ancien site (2024), à confirmer avec l'artiste -->
+          <!-- À VALIDER : coordonnées issues de l'ancien site (2024), à confirmer avec l'artiste -->
+          <!-- TODO : la boîte aurelien@delwood.fr doit exister avant la mise en ligne -->
           <div>
             <dt style="color:rgba(241,239,232,0.5)">Email</dt>
             <dd><a class="link-arrow" href="mailto:aurelien@delwood.fr" style="margin-top:0.4rem">aurelien@delwood.fr</a></dd>
@@ -513,13 +404,6 @@
           <div>
             <dt style="color:rgba(241,239,232,0.5)">Atelier</dt>
             <dd>Atelier 53<br>53 allée du Moura<br>64200 Biarritz</dd>
-          </div>
-          <div>
-            <dt style="color:rgba(241,239,232,0.5)">Réseaux</dt>
-            <dd style="display:flex; flex-wrap:wrap; gap:0.4rem 1.4rem">
-              <a class="link-arrow" href="https://www.instagram.com/delwood_art_work_/" target="_blank" rel="noopener" style="margin-top:0.4rem">Instagram</a>
-              <a class="link-arrow" href="https://www.facebook.com/aurelien.delwood" target="_blank" rel="noopener" style="margin-top:0.4rem">Facebook</a>
-            </dd>
           </div>
           <div>
             <dt style="color:rgba(241,239,232,0.5)">Zone d'intervention</dt>
@@ -543,11 +427,8 @@
       <div class="footer-col">
         <p class="footer-col__title">Explorer</p>
         <ul>
-          <li><a href="#oeuvres">Œuvres</a></li>
-          <li><a href="#fresques">Fresques &amp; art mural</a></li>
-          <li><a href="#architecture">Art &amp; architecture</a></li>
           <li><a href="entreprises.html">Entreprises</a></li>
-          <li><a href="#apropos">À propos</a></li>
+          <li><a href="chemin-de-vie.html">Chemin de vie</a></li>
         </ul>
       </div>
       <div class="footer-col">
@@ -557,7 +438,7 @@
           <li><a href="mailto:aurelien@delwood.fr">aurelien@delwood.fr</a></li>
           <li><a href="https://www.instagram.com/delwood_art_work_/" target="_blank" rel="noopener">Instagram</a></li>
           <li><a href="https://www.facebook.com/aurelien.delwood" target="_blank" rel="noopener">Facebook</a></li>
-          <li><a href="#contact">Un projet ? Parlons-en</a></li>
+          <li><a href="entreprises.html#contact">Un projet&nbsp;? Parlons-en</a></li>
         </ul>
       </div>
     </div>
